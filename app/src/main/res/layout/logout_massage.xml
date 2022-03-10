@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/alertdialog_background"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/onumedium"
+        android:text="@string/logout_content"
+        android:textSize="@dimen/_14ssp"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/ic_logout"
+        android:drawablePadding="@dimen/_5sdp"
+        android:id="@+id/tv_Massage"
+        android:gravity="start"
+        android:padding="@dimen/_15sdp"
+        android:background="@color/white"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:textColor="@color/black"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="#000"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/onumedium"
+            android:gravity="center"
+            android:text="@string/logout_sure"
+            android:id="@+id/confirm_tv"
+            android:textSize="@dimen/_14ssp"
+            android:paddingStart="@dimen/_1sdp"
+            android:paddingEnd="@dimen/_1sdp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+          />
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:background="#000"></View>
+
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/onumedium"
+            android:gravity="center"
+            android:text="@string/logout_cancle"
+            android:id="@+id/cancle_tv"
+            android:textSize="@dimen/_14ssp"
+            android:paddingStart="@dimen/_1sdp"
+            android:paddingEnd="@dimen/_1sdp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+          />
+
+    </LinearLayout>
+
+
+</LinearLayout>

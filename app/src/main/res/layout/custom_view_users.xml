@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/_10sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5ssp"
+            android:layout_marginBottom="@dimen/_7ssp"
+            android:id="@+id/card"
+            android:layout_gravity="center"
+            app:cardCornerRadius="@dimen/_8sdp"
+            app:cardElevation="@dimen/_4sdp"
+            app:cardBackgroundColor="@color/white"
+            app:contentPadding="@dimen/_10sdp"
+            android:foreground="?android:attr/selectableItemBackground"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="start"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/username"
+                                android:drawableStart="@drawable/ic_user"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:textSize="@dimen/_11ssp"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/blue"
+                                />
+                            <TextView
+                                android:layout_width="@dimen/_7sdp"
+                                android:layout_height="@dimen/_7sdp"
+                                android:layout_marginStart="@dimen/_5sdp"
+                                android:id="@+id/status"
+                                android:gravity="center"
+                                android:background="@drawable/background_color_statues"
+                                android:layout_gravity="center"
+                                android:textAlignment="viewEnd"
+                                />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/phone_number"
+                            android:drawableStart="@drawable/ic_phone"
+                            android:drawablePadding="@dimen/_5sdp"
+                            android:textSize="@dimen/_11ssp"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/blue"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cafeteria_name"
+                            android:drawableStart="@drawable/ic_cafeteria_restaurant"
+                            android:drawablePadding="@dimen/_5sdp"
+                            android:textSize="@dimen/_11ssp"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/blue"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/location"
+                            android:drawableStart="@drawable/ic_location"
+                            android:drawablePadding="@dimen/_5sdp"
+                            android:textSize="@dimen/_11ssp"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/blue"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/expir_date"
+                            android:drawableStart="@drawable/ic_date"
+                            android:drawablePadding="@dimen/_5sdp"
+                            android:textSize="@dimen/_11ssp"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/blue"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/addeddatitle"
+                                android:text="@string/addeddate_vu"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black1"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/addeddate"
+                                android:text="22-2-2019"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black1"
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end"
+                    android:layout_gravity="end">
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:id="@+id/swithc"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_3sdp"
+                        android:id="@+id/delete_mac"
+                        android:drawableStart="@drawable/ic_delete"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:text="Mac Address"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_9ssp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:background="@drawable/background_btn_macaddress" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_3sdp"
+                        android:id="@+id/edituserprofile"
+                        android:drawableStart="@drawable/ic_edit_userprofile"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:text="@string/edit"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_9ssp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:background="@drawable/background_btn_edit" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_3sdp"
+                        android:id="@+id/editpassword"
+                        android:drawableStart="@drawable/ic_editpassword"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_9ssp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:background="@drawable/background_btn_editpassword" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

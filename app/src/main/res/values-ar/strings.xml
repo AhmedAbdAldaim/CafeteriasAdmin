@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إدارة الكافتريات</string>
+    <string name="google_place_Api">AIzaSyDpyz8mfmGCMD8yvcixNRYyPmwfwYRGA7o</string>
+
+    <!-- Connection -->
+    <string name="connect_internet">الرجاء التحقق إتصال الانترنت </string>
+    <string name="connect_internet_slow">هناك مشكلة في الإتصال بالانترنت </string>
+    <string name="loading">جار التحميل...</string>
+    <string name="wait">أرجو الإنتظار ....</string>
+    <string name="try_agin">حاول مرة اخرى</string>
+    <string name="ok">موافق</string>
+    <string name="error">خطأ</string>
+    <string name="servererror"> حدث خطأ ما يرجى المحاولة مرة أخرى في وقت لاحق</string>
+
+    <!-- Login -->
+    <string name="phone_hint">رقم الهاتف</string>
+    <string name="lock_hint">كلمة المرور</string>
+    <string name="login_btn">تسجيل الدخول</string>
+    <string name="phone_number_empty">أدخل رقم الهاتف</string>
+    <string name="password_empty">أدخل كلمة المرور</string>
+    <string name="password_check">الرجاء إدخال كلمة المرور من 8 خانات او أكثر !</string>
+    <string name="phone_valid">الرجاء إدخال رقم هاتف صالح !</string>
+
+    <!--Main -->
+    <string name="cafeteria_registeration">إضافة كافتيريا</string>
+    <string name="users_view">المستخدمين</string>
+    <string name="settings">الإعدادات</string>
+
+    <!--Cafeteria Registeration -->
+    <string name="username_cr">أسم المستخدم</string>
+    <string name="cafeteria_cr">أسم الكافتيريا أو المطعم</string>
+    <string name="phone_cr">رقم الهاتف</string>
+    <string name="password_cr">كلمة المرور</string>
+    <string name="location_cr">الموقع</string>
+    <string name="sub_expiry_date_cr">تاريخ إنتهاء الإشتراك</string>
+    <string name="password_confirm_cr">تأكيد كلمة المرور</string>
+    <string name="username_cr_empty">أدخل أسم المستخدم</string>
+    <string name="cafeteria_cr_empty">أدخل أسم الكافتيريا أو المطعم</string>
+    <string name="phone_cr_empty">أدخل رقم الهاتف</string>
+    <string name="password_cr_empty">أدخل كلمة المرور</string>
+    <string name="location_cr_empty">أدخل الموقع</string>
+    <string name="sub_expiry_date_cr_empty">أدخل تاريخ إنتهاء الإشتراك</string>
+    <string name="password_confirm_cr_empty">أدخل تأكيد كلمة المرور</string>
+    <string name="password_similarity">الرجاء التحقق من تشابه كلمة المرور !</string>
+    <string name="cafeteria_registeration_btn">تسجيل</string>
+    <string name="cafeteria_registeration_successfully">تم التسجيل بنجاح !</string>
+    <string name="cafeteria_ok">موافق</string>
+
+
+    <!-- View Users -->
+    <string name="empty_vu">لا توجد بيانات</string>
+    <string name="active_vu">نشط</string>
+    <string name="nonactive_vu">غير نشط</string>
+    <string name="search_vu">أدخل الأسم او المطعم او رقم الهاتف</string>
+    <string name="macAddress_vu">MacAddress</string>
+    <string name="addeddate_vu">تاريخ الاضافة :</string>
+    <string name="active_status_vu">تم تنشيط حساب </string>
+    <string name="nonactive_status_vu">تم الغاء تنشيط حساب</string>
+    <string name="remove_mac_massage"> هل تريد ازالة عنوان الماك </string>
+    <string name="Done_remove_mac_massage">تم ازالة عنوان الماك</string>
+
+
+    <!--Settings -->
+    <string name="actionbar_setting">الاعدادات</string>
+    <string name="edit_profile">تعديل البيانات الشخصية</string>
+    <string name="logout">تسجيل خروج </string>
+    <string name="language">اللغة</string>
+
+    <!-- Notifications -->
+    <string name="actionbar_notification">الإشعارات</string>
+    <string name="actionbar_view_notification">عرض الإشعارات</string>
+    <string name="edit_notification">تعديل الإشعار</string>
+    <string name="edit_notification_btn">تعديل</string>
+    <string name="edit_notification_successfully">تم التعديل بنجاح !</string>
+    <string name="remove_notification">هل تريد إزالة الإشعار</string>
+    <string name="Done_remove_notification">تم إزالة الاشعار بنجاح</string>
+
+    <!--Add Notifications -->
+    <string name="actionbar_add_notification">إضافة إشعار</string>
+    <string name="title">العنوان</string>
+    <string name="notification">الإشعار</string>
+    <string name="title_empty">أدخل عنوان الإشعار</string>
+    <string name="notification_empty">أدخل الإشعار</string>
+    <string name="notification_btn">إرسال</string>
+    <string name="notification_successfully">تم الإرسال بنجاح !</string>
+
+
+    <!--Edit Profile -->
+    <string name="actionbar_edit_profile">تعديل الملف الشخصي</string>
+    <string name="username_edit_profile">أسم المستخدم</string>
+    <string name="phone_number_edit_profile">رقم الهاتف</string>
+    <string name="username_edit_profile_empty">أدخل أسم المستخدم</string>
+    <string name="phone_number_edit_profile_empty">أدخل رقم الهاتف</string>
+    <string name="check_username_length_edit_profile">لا يمكن إدخال أكثر من 40 حرف !</string>
+    <string name="phone_number_edit_profile_valid">الرجاء إدخال رقم هاتف صالح !</string>
+    <string name="edit">تعديل</string>
+    <string name="edit_successfully">تم التعديل بنجاح !</string>
+
+    <!--Edit Users Profile -->
+    <string name="actionbar_edit_users_profile">تعديل البيانات</string>
+    <string name="editpassword">نسيت كلمة المرور</string>
+
+    <!--Session-->
+    <string name="session_summary">ملخص الجلسة</string>
+    <string name="login_time">وقت تسجيل الدخول :</string>
+    <string name="logout_time">وقت تسجيل الخروج :</string>
+    <string name="close">إغلاق</string>
+
+    <!-- logout massage -->
+    <string name="logout_hidder">تسجيل الخروج</string>
+    <string name="logout_content"> هل تريد تسجيل الخروج ؟ </string>
+    <string name="logout_sure">تأكيد</string>
+    <string name="logout_cancle">إلغاء</string>
+</resources>

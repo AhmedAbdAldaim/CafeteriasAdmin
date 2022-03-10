@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cafeteriasadmin">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Ui.Activity.EditUsersProfile" android:theme="@style/AppTheme1"></activity>
+        <activity
+            android:name=".Ui.Activity.NotificationsView"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Ui.Activity.Notifications"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Ui.Activity.AddNotification"
+            android:theme="@style/AppTheme1" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_place_Api" />
+
+        <activity android:name=".Ui.Activity.Session_Logout" />
+        <activity
+            android:name=".Ui.Activity.EditProfile"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Ui.Activity.Settings"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Ui.Activity.ViewUsers"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Ui.Activity.CafeteriasRegisteration"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Ui.Activity.Login"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Ui.Activity.MainActivity" />
+        <activity
+            android:name=".Ui.Activity.SplashScreen"
+            android:theme="@style/AppThemeNOActionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>
